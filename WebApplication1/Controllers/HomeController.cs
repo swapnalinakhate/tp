@@ -8,12 +8,12 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index1()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult About1()
         {
             ViewBag.Message = "Your application description page.";
 
